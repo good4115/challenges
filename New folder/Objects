@@ -1,0 +1,24 @@
+var person = {
+name: 'Cathy',
+country: US,
+age: 56,
+treehouseStudent: true,
+skills: ['JavaScript', 'HTML', 'CSS']
+};
+
+function print(message){
+var div = document.getElementById('output);
+div.inner HTML = message;
+}
+
+var message = '<p>Hello. My name is' + person.name + '</p>';
+print(message);
+
+message += '<p> I live in the' + person.country + '<p/>';
+person.name ='Rainbow Dash';
+message += '<p> But, I was wishing my name was ' + person.name + '</p>;
+person.age += 1;
+nessage += '<p> My age is now ' + person.age + '<p/>';
+message += '<p> I have ' + person.skills.length + 'skills: ' ;
+message += person.skills.join(',') + '<p/>';
+}

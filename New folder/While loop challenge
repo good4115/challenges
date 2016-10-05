@@ -1,0 +1,12 @@
+*// Finish the following code//*
+
+var counter = 0;
+while (counter <10 ) {
+document.write('<p>paragraph # ' + counter + '</p>;
+}
+
+var counter = 0;
+while (counter > = 0){
+document.write('<p> paragraph # ' + counter '</p>');
+counter += 1;
+}

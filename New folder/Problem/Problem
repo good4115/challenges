@@ -1,0 +1,54 @@
+//Problem: user interaction doesn't provide desired results.
+//Solution: add interactivitry so user can manae daily task.
+
+//add new task
+//edit an existing task
+//delete existing task
+//mark a task incomplete
+//mark a task complete
+
+//add a new task
+//when the button is pressed
+//create a new list item with the text from new task:
+//input (checkbox)
+//label
+//input (text)
+//button.edit
+//button.delete
+//each element,modified|appended
+
+//edit existing task
+when the edit button is pressed
+//if the class of the parent is .editMode
+//switch from .editMode
+//label text to become the input's value
+//else
+//switch to .editMode
+//input value becomes the labels text
+
+toggle.editMode on the parent
+
+//delete an existing task
+//when the delete button is pressed
+//remove parent list item from unordered list
+
+//mark a task as complete
+//when the checkbox is checked
+//append the task list item to the dompleted-task
+
+//mark task as incomplete
+//when the checkbox is unchecked
+//append the task list item to the incomplete-task
+
+//Solution
+
+var addTask = function() {
+var editTask = function() {
+var deleteTask = function(){
+var taskCompleted = function() {
+var taskIncomplete = function() {
+
+var taskInput = document.getElementByID(new-task); //new-task
+var addButton = getElementsByTagName('button') [0];//first button
+var incompleteTaskHolder = document.getElementByID//incomplete-tasks
+var completedTasksHolder = document.getElementByID; //completed-tasks
